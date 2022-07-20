@@ -293,13 +293,13 @@ int main(){
     // system("clear");
     // board(0,0,0);
     if(player1.victories > 0){
-        printf(GREEN"\n\n%s wins!\n\n"RESET, player1.name);
+        printf(GREEN "\n\n%s wins!\n\n" RESET, player1.name);
     }
     else if (player2.victories > 0){
-        printf(GREEN"\n\n%s wins!\n\n"RESET, player2.name);
+        printf(GREEN "\n\n%s wins!\n\n" RESET, player2.name);
     }
     else {
-        printf(CYAN"\n\nIt's a tie!\n\n"RESET);
+        printf(CYAN "\n\nIt's a tie!\n\n" RESET);
     }
 
     return 0;
